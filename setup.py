@@ -43,7 +43,13 @@ def Install(cobblr_path):
   module_files = [i for i in all_files if '.png' not in i]
 
   try:
-   module_files.remove('setup.py')
+    os.system('./dependencies.sh')
+    module_files.remove('dependencies.sh')
+  except:
+    pass
+
+  try:
+    module_files.remove('setup.py')
   except:
     pass
 
@@ -61,4 +67,3 @@ if __name__ == '__main__':
     print "I haven't implemented this yet. So much homework."
   else:
     print "setup.py doesn't know how to", action + ". But you can teach me."
-              
