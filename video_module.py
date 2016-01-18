@@ -11,7 +11,6 @@ import atexit
 import io
 import stat
 import os
-import serial
 import signal
 import picamera
 import time
