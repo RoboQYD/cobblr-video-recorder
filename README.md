@@ -8,6 +8,7 @@ Here's a list of hardware necessary to make cobblr-video work:
  - 1 [Raspberry Pi](https://www.adafruit.com/products/2358)
  - 1 [Raspberry Pi Camera](https://www.adafruit.com/products/3099)
  - 1 [Adafruit 2.8in PiTFT](https://www.adafruit.com/products/1601)
+ - 1 [USB Microphone Dongle](http://www.amazon.com/Super-Microphone-Adapter-Driver-Notebook/dp/B00M3UJ42A)
  - 1 [(Optional) Adafruit Powerboost 1000C](https://www.adafruit.com/products/2465)
  - 1 [(Optional) Adafruit LiPo Battery 500mAh](https://www.adafruit.com/products/1578)
 
@@ -23,8 +24,8 @@ sudo cobblr install cobblr-video
 
 Though not required, I've made a delrin body for it. The CADs are avaliable [here](https://github.com/TheQYD/CAD/tree/master/cobblr-camera). Other applications were made to work with the cobblr-video:
 
-- [cobblr-calculator](http://gihub.com/TheQYD/cobblr-camera)
-- [cobblr-music](http://gihub.com/TheQYD/cobblr-audio)
+- [cobblr-camera](http://gihub.com/TheQYD/cobblr-camera)
+- [cobblr-audio](http://gihub.com/TheQYD/cobblr-audio)
 
 # License
 Cobblr Video is available under the MIT license. See the LICENSE file for more info. Make it better!
